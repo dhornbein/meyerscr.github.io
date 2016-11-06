@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>NYC Mesh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="/mesh.ico" rel="shortcut icon" type="image/x-icon">
+	</head>
+<body {% if page.title %}class="blog"{% else %}{% endif %}>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+					 
+					  <h1> <img src="logoicon.png" width="46" height="46" alt=""/> NYC Mesh</h1>
+						<p>A community-owned
+resilient network.
+						</p>
+			  </header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">About</a></li>
+							<li><a href="#map">Map</a></li>
+							<li><a href="#blog">Blog</a></li>
+							<li><a href="#join">Join</a></li>
+							<li><a href="#support">Support</a></li>
+							<li><a href="#donate">Donate</a></li>
+
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About Section -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+								  <div class="content">
+										<header class="major">
+											<h2>{{ page.title }}</h2>
+										</header>
+										 <div class="content">
+  {{ content }}
+   {% if site.disqus_shortname and page.comments %}
+   <div id="disqus_thread"></div>
+  {% endif %}
+  {% include footer.html %}
+</div>
+<hr>
+<footer id="footer">
+						<section>
+							<h3>Newsletter</h3>
+							<p>
+                         <div id="newsletter">
+                         Sign up for our newsletter to stay in the loop.<br> <Br>
+	<form action="//nicholasfrota.us9.list-manage.com/subscribe/post?u=cf667149616fd293afa115f5a&amp;id=ebe72854f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your Email"><br>
+		<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"   class="btn">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+		<div style="position: absolute; left: -5000px;"><input type="text" name="b_cf667149616fd293afa115f5a_ebe72854f3" tabindex="-1" value=""></div>
+	</form>
+</div>
+						</section>
+						<section>
+							<h3>Contact</h3>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>New York, NY 10013 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">contact@nycmesh.net</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; NYC Mesh. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+	</body>
+</html>
